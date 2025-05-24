@@ -4,6 +4,7 @@
 	"description": "InfoSec project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
+		"dev": "nodemon server.js",
 		"start": "node server.js"
 	},
 	"dependencies": {
@@ -14,7 +15,10 @@
 		"dotenv": "^8.2.0",
 		"express": "^4.14.0",
 		"helmet": "^3.1.0",
-		"mocha": "^3.2.0"
+		"mocha": "^3.2.0",
+		"mongodb": "^6.16.0",
+		"mongoose": "^8.15.0",
+		"nodemon": "^3.1.10"
 	},
 	"repository": {
 		"type": "git",
